@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Dashboard } from './components/Dashboard';
-import { Upload } from './components/Upload';
+import { supabase } from './supabaseClient'
+//import { Upload } from './components/Upload';
 import { Search } from './components/Search';
 import { Visualizations } from './components/Visualizations';
 import { Footer } from './components/Footer';
